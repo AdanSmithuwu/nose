@@ -1,0 +1,18 @@
+•	Descripción funcional:
+[Breve descripción del propósito del procedimiento y lo que modifica en la base de datos.]
+•	Objetivo:
+[Qué se pretende lograr al ejecutar este procedimiento.]
+•	Tipo de cursor utilizado:
+[Especificar si es estático, dinámico, explícito, implícito, etc.]
+•	Explicación general del flujo:
+[Descripción del recorrido del cursor, qué selecciona, cómo itera y qué actualiza.]
+
+•	Detalles del cursor
+Conjunto recorrido: [Qué registros recorre]
+Variable interna: [Variable usada para almacenar ID o datos temporales]
+Procesamiento dentro del ciclo: [Qué se actualiza o ejecuta por iteración]
+Manejo del cursor: [Apertura, recorrido, cierre y liberación].
+
+
+•	Conclusiones
+[Resumen de la efectividad del procedimiento, ventajas, advertencias como impacto en rendimiento, y sugerencias para mejorar]

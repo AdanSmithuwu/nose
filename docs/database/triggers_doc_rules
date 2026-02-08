@@ -1,0 +1,21 @@
+Trigger: [nombreTrigger]
+•	Descripción funcional:
+[Explica brevemente qué hace el trigger, en qué tabla está asociado y qué acción (INSERT, UPDATE, DELETE) lo activa.]
+•	Objetivo:
+[Indica qué se busca garantizar, automatizar o controlar con el uso de este trigger.]
+•	Tipo de trigger:
+[AFTER o INSTEAD OF, y para qué operación: INSERT, UPDATE, DELETE.]
+•	Tabla asociada:
+[Nombre de la tabla sobre la que actúa el trigger.]
+•	Condición o lógica de ejecución:
+[Describe brevemente la lógica implementada dentro del trigger: validaciones, actualizaciones, inserciones, restricciones automáticas, etc.]
+•	Script SQL del trigger:
+(captura de pantalla)
+•	Ejemplo de ejecución del trigger:
+[Describe cómo se activa el trigger con una acción en la tabla relacionada.]
+    o	Sentencia que lo activa:
+    INSERT INTO ...
+    UPDATE ...
+    DELETE FROM ...
+•	Resultado esperado:
+[Qué efecto debería producirse automáticamente al ejecutarse el trigger: actualización en otra tabla, cancelación de operación, inserción automática, etc.]

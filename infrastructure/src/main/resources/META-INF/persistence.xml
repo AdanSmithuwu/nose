@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="3.2" xmlns="https://jakarta.ee/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence/persistence_3_2.xsd">
+  <persistence-unit name="SistemaGestionValerioPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.BitacoraLoginEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.ClienteEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.ComprobanteEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.DetalleTransaccionEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.EmpleadoEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.EstadoEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.MetodoPagoEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.MovimientoInventarioEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.PagoTransaccionEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.ParametroSistemaEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.PedidoEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.PersonaEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.PresentacionEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.ProductoEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.ReporteEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.RolEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.TallaStockEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.TipoMovimientoEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.TipoProductoEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.TransaccionEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.VentaEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.CategoriaEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.AlertaStockEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.HistorialTransaccionEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.ClienteActivoEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.OrdenCompraEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.OrdenCompraPdfEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.ProductoMasVendidoEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.ClienteFrecuenteEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.report.ResumenModalidadEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.report.ResumenModalidadPK</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.report.RotacionProductoEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.report.RotacionProductoPK</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.report.TransaccionesDiaEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.report.PagoMetodoDiaEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.report.PagoMetodoDiaPK</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.report.ResumenCategoriaEntity</class>
+    <class>com.comercialvalerio.infrastructure.persistence.entity.report.ResumenCategoriaPK</class>
+    <properties>
+    <!-- Las propiedades de la conexión se proporcionan mediante DataSourceProvider -->
+    </properties>
+  </persistence-unit>
+</persistence>

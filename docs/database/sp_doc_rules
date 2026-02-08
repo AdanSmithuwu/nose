@@ -1,0 +1,17 @@
+•	Descripción funcional:
+[Descripción breve de la finalidad del procedimiento en el sistema, qué verifica o ejecuta.]
+•	Objetivo:
+[Qué busca garantizar o realizar el procedimiento, expresado como una meta.]
+•	Explicación de parámetros:
+@param1 (tipo): [Descripción del parámetro]
+@param2 (tipo): [Descripción del parámetro].
+@ok (BIT OUTPUT): Resultado de la autenticación, 1 si es correcto, 0 si no.
+...
+•	Explicación clara de su función:
+[Resumen explicativo del flujo funcional o decisión que toma el procedimiento.]
+•	Resultado esperado del procedimiento:
+[Tipo de valor retornado o acción que realiza el SP en la base.]
+•	Tipo de operación: [Read, Write, etc.]
+•	Nivel de impacto: [Bajo, Medio, Alto]
+•	Transaccionalidad: [Sí/No]No aplica.
+•	Dependencias externas: [Tablas involucradas]
