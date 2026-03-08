@@ -168,3 +168,50 @@ Como objetivo personal de aprendizaje, trabaja cada ítem con esta secuencia:
 5. Registrar qué cambió y por qué cambió.
 
 Esto te permitirá aprender arquitectura y diseño sin perder trazabilidad sobre el legado.
+
+
+diff --git a/docs/architecture/guia-control-paralelo-proyecto-nuevo.md b/docs/architecture/guia-control-paralelo-proyecto-nuevo.md
+index abd895b97b31bf582a774927d872d87a3856d72e..5571dcb26863500c926df7f613b5835673535e37 100644
+--- a/docs/architecture/guia-control-paralelo-proyecto-nuevo.md
++++ b/docs/architecture/guia-control-paralelo-proyecto-nuevo.md
+@@ -1,27 +1,40 @@
+# Guía de control paralelo: proyecto original vs proyecto nuevo
+
++## 0.1 Pre-fase recomendada: Fase Beta (base del proyecto nuevo)
++Antes de ejecutar la Fase 0 formal, se recomienda completar una **Fase Beta**
++centrada en crear la estructura base del proyecto nuevo (`comercialsvalerio`)
++usando este repositorio como referencia controlada.
++
++Documento de apoyo:
++- `docs/architecture/fase-beta-base-proyecto-comercialsvalerio.md`
++
++Durante Beta:
++- ignora fases 1 a 7,
++- toma solo lo necesario de Fase 0 para preparar base técnica,
++- y registra ítems con prefijo `BETA-` para enlazarlos luego con `PAR-`.
++
+## 1. Propósito de este documento
+Este documento define cómo construir un proyecto nuevo desde cero (Spring Boot) manteniendo
+trazabilidad fase a fase con el proyecto original de este repositorio.
+
+La meta es que, en cada avance, puedas responder claramente:
+- qué pieza del nuevo sistema es equivalente al sistema original,
+- qué código se reutilizó casi igual,
+- qué se adaptó,
+- y qué se creó como mejora nueva.
+
+## 2. Principio de trabajo simultáneo
+Trabaja siempre con dos vistas al mismo tiempo:
+- **Vista A (original / referencia):** fuente funcional y técnica existente en `nose`.
+- **Vista B (nuevo / objetivo):** implementación moderna que estás creando desde cero.
+
+Cada ítem implementado en la Vista B debe quedar registrado en una matriz con:
+- referencia exacta de origen,
+- decisión tomada,
+- evidencia de validación,
+- fase en la que se implementó.
+
+## 3. Reglas de mapeo para no perder el hilo
+Para cada componente que migres o recrees, clasifícalo en una de estas categorías:
+
+- **IGUAL**: se replica comportamiento y estructura con mínimos cambios técnicos.
