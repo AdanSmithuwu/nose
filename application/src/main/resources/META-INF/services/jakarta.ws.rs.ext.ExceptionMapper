@@ -1,0 +1,9 @@
+com.comercialvalerio.application.rest.exception.AuthenticationExceptionMapper
+com.comercialvalerio.application.rest.exception.BusinessRuleViolationExceptionMapper
+com.comercialvalerio.application.rest.exception.ConfigExceptionMapper
+com.comercialvalerio.application.rest.exception.DataAccessExceptionMapper
+com.comercialvalerio.application.rest.exception.EntityNotFoundExceptionMapper
+com.comercialvalerio.application.rest.exception.JsonExceptionMapper
+com.comercialvalerio.application.rest.exception.NotificationExceptionMapper
+com.comercialvalerio.application.rest.exception.PdfGenerationExceptionMapper
+com.comercialvalerio.application.rest.exception.ResteasyViolationExceptionMapper

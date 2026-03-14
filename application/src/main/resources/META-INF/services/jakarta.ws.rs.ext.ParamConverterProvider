@@ -1,0 +1,4 @@
+com.comercialvalerio.application.rest.converter.LocalDateParamConverterProvider
+com.comercialvalerio.application.rest.converter.LocalDateTimeParamConverterProvider
+com.comercialvalerio.application.rest.converter.NombreComparableParamConverterProvider
+com.comercialvalerio.application.rest.converter.TipoPedidoParamConverterProvider

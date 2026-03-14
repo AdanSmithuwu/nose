@@ -1,0 +1,14 @@
+<jboss-deployment-structure>
+    <deployment>
+        <dependencies>
+            <!-- Requerido por Google OAuth para iniciar un servidor local -->
+            <system export="true">
+                <paths>
+                    <path name="com/sun/net/httpserver" />
+                </paths>
+            </system>
+        </dependencies>
+        <exclusions>
+        </exclusions>
+    </deployment>
+</jboss-deployment-structure>
